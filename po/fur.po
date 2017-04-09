@@ -1,0 +1,441 @@
+# Friulian translation for gnoduino.
+# Copyright (C) 2017 gnoduino's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnoduino package.
+# Fabio Tomat <f.t.public@gmail.com>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnoduino master\n"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
+"product=gnoduino&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2017-04-08 14:24+0000\n"
+"PO-Revision-Date: 2017-04-09 23:42+0200\n"
+"Language-Team: Friulian <fur@li.org>\n"
+"Language: fur\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
+"X-Generator: Poedit 1.8.12\n"
+
+#: ../src/compiler.py:139
+msgid "Compiling..."
+msgstr "Daûr a compilâ..."
+
+#: ../src/compiler.py:158 ../src/compiler.py:164 ../src/compiler.py:170
+#: ../src/compiler.py:177 ../src/compiler.py:195 ../src/compiler.py:226
+msgid "Compile Error"
+msgstr "Erôr di compilazion"
+
+#: ../src/compiler.py:256
+msgid "Linking error"
+msgstr "Erôr di colegament"
+
+#: ../src/compiler.py:268 ../src/compiler.py:281
+msgid "Object error"
+msgstr "Erôr ogjet"
+
+#: ../src/compiler.py:287
+msgid "Done compiling."
+msgstr "Finît di compilâ."
+
+#: ../src/compiler.py:291
+#, python-format
+msgid "Binary sketch size: %s bytes (of a %s bytes maximum)\n"
+msgstr "Dimension stampon di binari: %s byte (di un massim di %s bytes)\n"
+
+#: ../src/compiler.py:380 ../src/compiler.py:405
+msgid "Library Error"
+msgstr "Erôr librarie"
+
+#: ../src/misc.py:54
+#, python-format
+msgid ""
+"Unable to locate %s\n"
+"Arduino SDK missing or broken."
+msgstr ""
+"Impussibil cjatâ %s\n"
+"Il SDK di Arduino al mancje o nol funzione."
+
+#: ../src/misc.py:148
+#, python-format
+msgid "Cannot load %s file. Exiting."
+msgstr "Impussibil cjariâ il file %s. Si jes."
+
+#: ../src/misc.py:151
+#, python-format
+msgid "Error reading %s file. File is corrupt. Installation problem.\n"
+msgstr ""
+"Erôr tal lei il file %s. Il file al è ruvinât. Probleme di instalazion.\n"
+
+#: ../src/misc.py:278
+msgid "Error compiling."
+msgstr "Erôr tal compilâ."
+
+#: ../src/misc.py:349
+msgid "Close without Saving"
+msgstr "Siere cence salvâ"
+
+#: ../src/misc.py:351
+msgid "If you don't save, changes will be permanently lost."
+msgstr "Se no si salve, lis modifichis a laran pierdudis par simpri."
+
+#: ../src/serialio.py:116
+msgid ""
+"Serial port not configured!\n"
+"Use Tools->Serial Port to configure port."
+msgstr ""
+"La puarte seriâl no je configurade!\n"
+"Dopre Struments->Puarte seriâl par configurâ la puarte."
+
+#: ../src/srcview.py:161 ../src/srcview.py:171 ../src/srcview.py:241
+#: ../src/srcview.py:252
+#, python-format
+msgid "'%s' not found."
+msgstr "'%s' no cjatât."
+
+#: ../src/srcview.py:292 ../src/srcview.py:301
+#, python-format
+msgid "A total of %s replacements made."
+msgstr "Un totâl di %s sostituzions fatis."
+
+#: ../src/ui.py:69 ../src/ui.py:91 ../src/ui.py:109 ../src/ui.py:180
+#: ../src/ui.py:195
+msgid "Untitled"
+msgstr "Cence titul"
+
+#: ../src/ui.py:70
+msgid "Save document"
+msgstr "Salve document"
+
+#: ../src/ui.py:71
+#, python-format
+msgid ""
+"Save changes to document \"%s\"\n"
+" before closing?"
+msgstr ""
+"Salvâ lis modifichis sul document \"%s\"\n"
+" prime di sierâ?"
+
+#: ../src/ui.py:189
+msgid "Save file"
+msgstr "Salve file"
+
+#: ../src/ui.py:206
+msgid "Open file"
+msgstr "Vierç file"
+
+#: ../src/ui.py:232
+#, python-format
+msgid "<b>A file named %s already exists. Do you want to replace it?</b>"
+msgstr "<b>Un file clamât %s al esist za. Sostituîlu?</b>"
+
+#: ../src/ui.py:233
+#, python-format
+msgid ""
+"The file already exists in \"%s\". Replacing it will overwrite its contents."
+msgstr ""
+"Il file al esist za in \"%s\". Sostituintlu i siei contignûts a vignaran "
+"sorescrits."
+
+#: ../src/ui.py:562
+msgid "Open Recent"
+msgstr "Vierç resint"
+
+#: ../src/ui.py:597 ../ui/main.ui.h:59
+msgid "Send"
+msgstr "Invie"
+
+#: ../src/ui.py:598
+msgid "Clear"
+msgstr "Nete"
+
+#: ../src/ui.py:636
+#, python-format
+msgid "%s baud"
+msgstr "%s baud"
+
+#: ../src/ui.py:649
+#, python-format
+msgid "New device found on '%s'."
+msgstr "Gnûf dispositîf cjatât su '%s'."
+
+#: ../src/ui.py:837
+msgid "E_xamples"
+msgstr "E_semplis"
+
+#: ../src/ui.py:858
+msgid "Import Library"
+msgstr "Impuarte librarie"
+
+#: ../src/ui.py:864 ../ui/main.ui.h:55
+msgid "Upload"
+msgstr "Cjarie"
+
+#: ../src/ui.py:871
+msgid "Upload using programmer"
+msgstr "Cjarie doprant il programadôr"
+
+#: ../src/ui.py:910 ../src/ui.py:916 ../src/ui.py:922
+msgid "System error"
+msgstr "Erôr di sisteme"
+
+#: ../src/ui.py:925
+msgid "Cannot load ui file"
+msgstr "Impussibil cjariâ il file de interface utent"
+
+#: ../src/ui.py:1009
+msgid "--help    Print the command line options"
+msgstr "--help    Stampe lis opzions de rie di comant"
+
+#: ../src/ui.py:1010
+msgid "--version Output version information and exit"
+msgstr "--version Bute fûr lis informazions su la version e jes"
+
+#: ../src/uploader.py:54
+msgid "Burning bootloader..."
+msgstr "Scriture bootloader in cors..."
+
+#: ../src/uploader.py:67 ../src/uploader.py:102 ../src/uploader.py:154
+#: ../src/uploader.py:168
+msgid "Flashing error."
+msgstr "Erôr scriture."
+
+#: ../src/uploader.py:93 ../src/uploader.py:124
+msgid "Burn Error"
+msgstr "Erôr scriture"
+
+#: ../src/uploader.py:93 ../src/uploader.py:124
+msgid "Burn ERROR."
+msgstr "ERÔR scriture."
+
+#: ../src/uploader.py:127
+msgid "Burn complete."
+msgstr "Scriture completade."
+
+#: ../src/uploader.py:136
+msgid "Flashing..."
+msgstr "Scriture in cors..."
+
+#: ../src/uploader.py:187
+msgid "Flashing Error"
+msgstr "Erôr scriture"
+
+#: ../src/uploader.py:187
+msgid "Flash ERROR.\n"
+msgstr "ERÔR scriture.\n"
+
+#: ../src/uploader.py:190
+msgid "Flashing complete."
+msgstr "Scriture completade."
+
+#: ../ui/arduino.xml.h:1
+msgid "Arduino"
+msgstr "Arduino"
+
+#: ../ui/arduino.xml.h:2
+msgid "Arduino color scheme"
+msgstr "Scheme colôrs Arduino"
+
+#: ../ui/main.ui.h:1
+msgid "Lucian Langa <lucilanga@gnome.org>"
+msgstr "Lucian Langa <lucilanga@gnome.org>"
+
+#: ../ui/main.ui.h:2
+msgid "GNOME Arduino IDE"
+msgstr "IDE Arduino di GNOME"
+
+#: ../ui/main.ui.h:3
+msgid "gnoduino"
+msgstr "gnoduino"
+
+#: ../ui/main.ui.h:4
+msgid ""
+" gnoduino - Python Arduino IDE implementation\n"
+" Copyright (C) 2010-2012  Lucian Langa\n"
+"\n"
+"This program is free software; you can redistribute it and/or\n"
+"modify it under the terms of the GNU General Public License\n"
+"as published by the Free Software Foundation; either version 2\n"
+"of the License, or (at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, write to the Free Software\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, "
+"USA.\n"
+msgstr ""
+" gnoduino - Implementazion in Python di Arduino IDE\n"
+" Copyright (C) 2010-2012  Lucian Langa\n"
+"\n"
+"Chest program al è software libar; Tu puedis tornâ a distribuîlu e/o\n"
+"modificâlu sot i tiermins de licence GNU General Public\n"
+"come publicade de Free Software Foundation; sedi version 2\n"
+"de licence, o (a vuestre sielte) cualsisei version sucessive.\n"
+"\n"
+"Chest program al è distribuît inte sperance che al sedi util,\n"
+"ma CENCE NISSUNE GARANZIE; cence ancje la implicite garanzie di\n"
+"CUMIERÇABILITÂT o IDONEITÂT A UNE PARTICOLÂR FINALITÂT.  Viôt la\n"
+"licence GNU General Public par vê plui detais.\n"
+"\n"
+"Tu varessis di vê ricevût une copie de licence GNU General Public\n"
+"adun cun chest program; se no, scrîf ae Free Software\n"
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, "
+"USA.\n"
+
+#: ../ui/main.ui.h:21
+msgid "translator-credits"
+msgstr "Fabio Tomat <f.t.public@gmail.com>, 2017"
+
+#: ../ui/main.ui.h:22
+msgid "Search for:"
+msgstr "Cjate:"
+
+#: ../ui/main.ui.h:23
+msgid "Match entire word only"
+msgstr "Dome peraulis interiis"
+
+#: ../ui/main.ui.h:24
+msgid "Wrap around"
+msgstr "Torne tache dal inizi"
+
+#: ../ui/main.ui.h:25
+msgid "Match case"
+msgstr "Corispuindince maiusculis"
+
+#: ../ui/main.ui.h:26
+msgid "Search backwards"
+msgstr "Cîr indaûr"
+
+#: ../ui/main.ui.h:27
+msgid "Editor font size"
+msgstr "Dimension caratar dal editôr"
+
+#: ../ui/main.ui.h:28
+msgid "Console font size"
+msgstr "Dimension caratar de console"
+
+#: ../ui/main.ui.h:29
+msgid "Verbose build"
+msgstr "Costruzion prolisse"
+
+#: ../ui/main.ui.h:30
+msgid "Verbose upload"
+msgstr "Cjariament prolìs"
+
+#: ../ui/main.ui.h:31
+msgid "Show line numbers"
+msgstr "Mostre i numars di rie"
+
+#: ../ui/main.ui.h:32
+msgid "Sketchdir: "
+msgstr "Cartele stampons:"
+
+#: ../ui/main.ui.h:33
+msgid ""
+"Enter any supplementary path that compiler will check for, separate them by "
+"semicolons. (eg /usr/share/gnoduino;/usr/local/share/gnoduino)"
+msgstr ""
+"Inserìs eventuâi percors adizionâi che il compiladôr al controlarà, "
+"separâts cuntun pont e virgule. (pe /usr/share/gnoduino;/usr/local/share/"
+"gnoduino)"
+
+#: ../ui/main.ui.h:34
+msgid "Additional library paths:"
+msgstr "Percors librariis adizionâls:"
+
+#: ../ui/main.ui.h:35
+msgid "Replace All"
+msgstr "Sostituìs dut"
+
+#: ../ui/main.ui.h:36
+msgid "Replace with:"
+msgstr "Sostituìs cun:"
+
+#: ../ui/main.ui.h:37
+msgid "_File"
+msgstr "_File"
+
+#: ../ui/main.ui.h:38
+msgid "Upload to I/O Board"
+msgstr "Cjarie su schede I/O"
+
+#: ../ui/main.ui.h:39
+msgid "Preferences"
+msgstr "Preferencis"
+
+#: ../ui/main.ui.h:40
+msgid "_Edit"
+msgstr "_Modifiche"
+
+#: ../ui/main.ui.h:41
+msgid "Sketch"
+msgstr "Stampon"
+
+#: ../ui/main.ui.h:42
+msgid "Verify/Compile"
+msgstr "Verifiche/Compile"
+
+#: ../ui/main.ui.h:43
+msgid "Stop"
+msgstr "Ferme"
+
+#: ../ui/main.ui.h:44
+msgid "Add File..."
+msgstr "Zonte file..."
+
+#: ../ui/main.ui.h:45
+msgid "Tools"
+msgstr "Struments"
+
+#: ../ui/main.ui.h:46
+msgid "Serial Monitor"
+msgstr "Monitor seriâl"
+
+#: ../ui/main.ui.h:47
+msgid "Reset Board"
+msgstr "Azere schede"
+
+#: ../ui/main.ui.h:48
+msgid "Board"
+msgstr "Schede"
+
+#: ../ui/main.ui.h:49
+msgid "Serial Port"
+msgstr "Puarte seriâl"
+
+#: ../ui/main.ui.h:50
+msgid "Programmer"
+msgstr "Programadôr"
+
+#: ../ui/main.ui.h:51
+msgid "Burn Bootloader"
+msgstr "Scrîf bootloader"
+
+#: ../ui/main.ui.h:52
+msgid "_Help"
+msgstr "_Jutori"
+
+#: ../ui/main.ui.h:53
+msgid "Reference"
+msgstr "Riferiment"
+
+#: ../ui/main.ui.h:54
+msgid "Compile"
+msgstr "Compile"
+
+#: ../ui/main.ui.h:56
+msgid "New"
+msgstr "Gnûf"
+
+#: ../ui/main.ui.h:57
+msgid "Open"
+msgstr "Vierç"
+
+#: ../ui/main.ui.h:58
+msgid "Save"
+msgstr "Salve"
