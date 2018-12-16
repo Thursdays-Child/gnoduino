@@ -9,7 +9,7 @@
 
   <homepage rdf:resource="http://gnome.eu.org/evo/index.php/Gnoduino" />
   <download-page rdf:resource="http://gnome.eu.org/evo/index.php/Gnoduino#Source_Code" />
-  <bug-database rdf:resource="https://bugzilla.gnome.org/browse.cgi?product=gnoduino" />
+  <bug-database rdf:resource="https://gitlab.gnome.org/GNOME/gnoduino/issues/" />
   <!-- <category rdf:resource="http://api.gnome.org/doap-extensions#development" /> -->
 
   <maintainer>
